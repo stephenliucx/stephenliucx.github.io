@@ -1,6 +1,6 @@
 ## Creating a static website using Hugo
 
-## Edits
+### To edit
 1. `cd` to where it should be; `git pull`.
 2. edit locally. To add new contents, `hugo new content content/<...>`.
 3. `hugo server [--BuildDrafts]` to preview. See [here](https://gohugo.io/getting-started/usage/).
