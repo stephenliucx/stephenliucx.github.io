@@ -10,7 +10,7 @@
       <br>
       {{ end }}
       {{ .Site.Lastmod.Format "2006" }}
-      <a href="{{ "about/" | relURL }}">{{ .Site.Params.Author.name }}</a>
+      {{ .Site.Params.Author.name }}
     </p>
   </div>
 </footer>
