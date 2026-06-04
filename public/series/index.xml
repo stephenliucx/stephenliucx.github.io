@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Series on Stephen Liu</title>
-		<link>https://sl.period-domain.com/series/</link>
-		<description>Recent content in Series on Stephen Liu</description>
+		<title>Series on Stephen&#39;s period domain</title>
+		<link>https://stephen.period-domain.com/series/</link>
+		<description>Recent content in Series on Stephen&#39;s period domain</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<atom:link href="https://sl.period-domain.com/series/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://stephen.period-domain.com/series/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
