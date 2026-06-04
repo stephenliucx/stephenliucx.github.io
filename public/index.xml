@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Stephen&#39;s period domain</title>
-		<link>https://stephen.period-domain.com/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content on Stephen&#39;s period domain</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -16,27 +16,27 @@
 		
 			<lastBuildDate>Thu, 04 Jun 2026 10:57:21 -0400</lastBuildDate>
 		
-			<atom:link href="https://stephen.period-domain.com/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Math</title>
-				<link>https://stephen.period-domain.com/math/</link>
+				<link>http://localhost:1313/math/</link>
 				<pubDate>Thu, 04 Jun 2026 10:57:21 -0400</pubDate><author>sicheng.liu@temple.edu (Stephen Liu)</author>
-				<guid>https://stephen.period-domain.com/math/</guid>
+				<guid>http://localhost:1313/math/</guid>
 				<description>&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;p&gt;Tell you about them later.&lt;/p&gt;&#xA;&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;p&gt;2024/12/16 | &lt;a href=&#34;https://drive.google.com/file/d/1yY70LaJBEhi15ntd3GCYKUcoVMfjP21y/view?usp=share_link&#34;&gt;Hecke theta functions and modularity of CM elliptic curves&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;2023/06/29 | &lt;a href=&#34;https://drive.google.com/file/d/1gVrZFynyC7VOoAJz2fUsPGBnNoOrKnGu/view&#34;&gt;Maurer-Cartan elements and Lie-infinity algebras&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(with Lin-Hsiang Weng and Chien-Te Lu. Slides for the final presentation in NCTS URP 2022)&lt;/p&gt;&#xA;&lt;p&gt;2022/08/12 | &lt;a href=&#34;https://drive.google.com/file/d/1cNvTuGcyiLkK6wljPEgaooutZLBydW-j/view?usp=sharing&#34;&gt;Comparisons of various methods in deformation quantization&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(with Hua-Hsin Chang, Wei-Yu Liao, and Yi-Hsin Tsai. Final project for NCTS USRP 2022)&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-homework-write-ups&#34;&gt;Selected homework write-ups&lt;/h3&gt;&#xA;&lt;p&gt;2024/03/02 | The Galois group of &lt;a href=&#34;https://drive.google.com/file/d/11SK0orgJ8o7l1FXvgnLtdFcbZk20346z/view?usp=sharing&#34;&gt;the algebraic closure of finite fields&lt;/a&gt; is ℤ̂&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Algebraic surfaces</title>
-				<link>https://stephen.period-domain.com/posts/segre/</link>
+				<link>http://localhost:1313/posts/segre/</link>
 				<pubDate>Wed, 03 Jun 2026 23:50:29 -0400</pubDate><author>sicheng.liu@temple.edu (Stephen Liu)</author>
-				<guid>https://stephen.period-domain.com/posts/segre/</guid>
+				<guid>http://localhost:1313/posts/segre/</guid>
 				<description>&lt;h2 id=&#34;segre-embedding&#34;&gt;Segre embedding&lt;/h2&gt;&#xA;&lt;p&gt;Here is the affine part of the &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;double-struck&#34;&gt;R&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mathbb{R}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6889em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbb&#34;&gt;R&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;-points of the embedding of &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi mathvariant=&#34;double-struck&#34;&gt;P&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;msup&gt;&lt;mi mathvariant=&#34;double-struck&#34;&gt;P&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mathbb{P}^1\times\mathbb{P}^1&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8974em;vertical-align:-0.0833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathbb&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathbb&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; into &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi mathvariant=&#34;double-struck&#34;&gt;P&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\mathbb{P}^3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathbb&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;sagecell-container&#34;&gt;&#xA;  &lt;script type=&#34;text/x-sage&#34;&gt;&#xA;var(&#39;x, y, z&#39;)&#xA;G=implicit_plot3d(x*y==z, (x,-1,1), (y,-1,1), (z,-1,1),smooth=True, plot_points=60)&#xA;G.show()&#xA;&lt;/script&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;sagecell-container&#34;&gt;&#xA;  &lt;script type=&#34;text/x-sage&#34;&gt;&#xA;var(&#39;x, y, z&#39;)&#xA;G=implicit_plot3d(x^4+y^4+z^4-x^2-y^2-z^2-x^2*y^2-x^2*z^2-y^2*z^2+1==0 , (x,-2,2), (y,-2,2), (z,-2,2),smooth=True, plot_points=60)&#xA;G.show()&#xA;&lt;/script&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Hmmm.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>About</title>
-				<link>https://stephen.period-domain.com/about/</link>
+				<link>http://localhost:1313/about/</link>
 				<pubDate>Wed, 03 Jun 2026 22:21:15 -0400</pubDate><author>sicheng.liu@temple.edu (Stephen Liu)</author>
-				<guid>https://stephen.period-domain.com/about/</guid>
-				<description>&lt;h2 id=&#34;math&#34;&gt;&lt;a href=&#34;https://stephen.period-domain.com/math/&#34;&gt;Math&lt;/a&gt;&lt;/h2&gt;</description>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;h2 id=&#34;math&#34;&gt;&lt;a href=&#34;http://localhost:1313/math/&#34;&gt;Math&lt;/a&gt;&lt;/h2&gt;</description>
 			</item>
 	</channel>
 </rss>
