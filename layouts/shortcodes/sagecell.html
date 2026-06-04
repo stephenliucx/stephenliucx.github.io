@@ -1,0 +1,6 @@
+{{ $code := .Inner }}
+{{ $lang := .Get "lang" | default "sage" }}
+
+<div class="sagecell-container">
+  <script type="text/x-sage">{{ $code | safeHTML }}</script>
+</div>

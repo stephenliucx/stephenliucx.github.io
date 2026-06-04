@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 03 Jun 2026 22:21:15 -0400</lastBuildDate>
+			<lastBuildDate>Wed, 03 Jun 2026 23:50:29 -0400</lastBuildDate>
 		
 			<atom:link href="https://sl.period-domain.com/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Segre</title>
+				<link>https://sl.period-domain.com/posts/segre/</link>
+				<pubDate>Wed, 03 Jun 2026 23:50:29 -0400</pubDate>
+				<guid>https://sl.period-domain.com/posts/segre/</guid>
+				<description>&lt;h2 id=&#34;segre-embedding&#34;&gt;Segre embedding&lt;/h2&gt;&#xA;&lt;p&gt;Here is a Sage box.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;sagecell-container&#34;&gt;&#xA;  &lt;script type=&#34;text/x-sage&#34;&gt;&#xA;var(&#39;x, y, z&#39;)&#xA;G=implicit_plot3d(x*y==z, (x,-1,1), (y,-1,1), (z,-1,1),smooth=True, plot_points=60)&#xA;G.show()&#xA;&lt;/script&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Hmmm.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>About</title>
 				<link>https://sl.period-domain.com/about/</link>
