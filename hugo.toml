@@ -1,6 +1,6 @@
 baseURL = 'https://sl.period-domain.com/'
 locale = 'en-us'
-title = 'SCX'
+title = 'Stephen Liu'
 theme = 'HugoTeX'
 enableInlineShortcodes = true
 foornoteReturnLinkContents = "^"
@@ -9,13 +9,13 @@ foornoteReturnLinkContents = "^"
   pagerSize = 3
 
 [Params.author]
-  name = "SCX"
+  name = "Stephen Liu"
   abstract = """
   Hey
   """
 
-[markup.highlight]
-  style = 'dracula'
+# [markup.highlight]
+#   style = 'dracula'
 
 [taxonomies]
   category = "categories"
@@ -25,3 +25,21 @@ foornoteReturnLinkContents = "^"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[Params.Favicon]
+#   ico = "/favicon.ico"                     # Legacy multi-size .ico fallback
+#   svg = "/favicon.svg"                     # SVG icon for modern browsers
+  png = "/favicon.png"                     # 180x180 PNG fallback and Apple touch icon
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          inline = [['$', '$']]
+          block = [['$$', '$$']]
+  [markup.highlight]
+    style = "paraiso-dark"
