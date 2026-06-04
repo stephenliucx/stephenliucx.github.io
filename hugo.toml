@@ -44,3 +44,6 @@ foornoteReturnLinkContents = "^"
           block  = [['$$', '$$'], ['\[', '\]']]
   [markup.highlight]
     style = "paraiso-dark"
+
+[refLinks]
+notFoundURLs = "warning"
