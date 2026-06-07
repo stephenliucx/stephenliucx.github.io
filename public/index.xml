@@ -14,16 +14,9 @@
 		
 		
 		
-			<lastBuildDate>Thu, 04 Jun 2026 10:57:21 -0400</lastBuildDate>
+			<lastBuildDate>Wed, 03 Jun 2026 23:50:29 -0400</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Math</title>
-				<link>http://localhost:1313/math/</link>
-				<pubDate>Thu, 04 Jun 2026 10:57:21 -0400</pubDate><author>sicheng.liu@temple.edu (Stephen Liu)</author>
-				<guid>http://localhost:1313/math/</guid>
-				<description>&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;p&gt;Tell you about them later.&lt;/p&gt;&#xA;&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;p&gt;2024/12/16 | &lt;a href=&#34;https://drive.google.com/file/d/1yY70LaJBEhi15ntd3GCYKUcoVMfjP21y/view?usp=share_link&#34;&gt;Hecke theta functions and modularity of CM elliptic curves&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;2023/06/29 | &lt;a href=&#34;https://drive.google.com/file/d/1gVrZFynyC7VOoAJz2fUsPGBnNoOrKnGu/view&#34;&gt;Maurer-Cartan elements and Lie-infinity algebras&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(with Lin-Hsiang Weng and Chien-Te Lu. Slides for the final presentation in NCTS URP 2022)&lt;/p&gt;&#xA;&lt;p&gt;2022/08/12 | &lt;a href=&#34;https://drive.google.com/file/d/1cNvTuGcyiLkK6wljPEgaooutZLBydW-j/view?usp=sharing&#34;&gt;Comparisons of various methods in deformation quantization&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(with Hua-Hsin Chang, Wei-Yu Liao, and Yi-Hsin Tsai. Final project for NCTS USRP 2022)&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-homework-write-ups&#34;&gt;Selected homework write-ups&lt;/h3&gt;&#xA;&lt;p&gt;2024/03/02 | The Galois group of &lt;a href=&#34;https://drive.google.com/file/d/11SK0orgJ8o7l1FXvgnLtdFcbZk20346z/view?usp=sharing&#34;&gt;the algebraic closure of finite fields&lt;/a&gt; is ℤ̂&lt;/p&gt;</description>
-			</item>
 			<item>
 				<title>Algebraic surfaces</title>
 				<link>http://localhost:1313/posts/segre/</link>
@@ -36,7 +29,7 @@
 				<link>http://localhost:1313/about/</link>
 				<pubDate>Wed, 03 Jun 2026 22:21:15 -0400</pubDate><author>sicheng.liu@temple.edu (Stephen Liu)</author>
 				<guid>http://localhost:1313/about/</guid>
-				<description>&lt;h2 id=&#34;math&#34;&gt;&lt;a href=&#34;http://localhost:1313/math/&#34;&gt;Math&lt;/a&gt;&lt;/h2&gt;</description>
+				<description>&lt;h2 id=&#34;math&#34;&gt;&lt;a href=&#34;http://localhost:1313/math/&#34;&gt;Math&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;&#xA;&lt;p&gt;Tell you about them later.&lt;/p&gt;&#xA;&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;&#xA;&lt;p&gt;2024/12/16 | &lt;a href=&#34;https://drive.google.com/file/d/1yY70LaJBEhi15ntd3GCYKUcoVMfjP21y/view?usp=share_link&#34;&gt;Hecke theta functions and modularity of CM elliptic curves&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;2023/06/29 | &lt;a href=&#34;https://drive.google.com/file/d/1gVrZFynyC7VOoAJz2fUsPGBnNoOrKnGu/view&#34;&gt;Maurer-Cartan elements and Lie-infinity algebras&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(with Lin-Hsiang Weng and Chien-Te Lu. Slides for the final presentation in NCTS URP 2022)&lt;/p&gt;&#xA;&lt;p&gt;2022/08/12 | &lt;a href=&#34;https://drive.google.com/file/d/1cNvTuGcyiLkK6wljPEgaooutZLBydW-j/view?usp=sharing&#34;&gt;Comparisons of various methods in deformation quantization&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(with Hua-Hsin Chang, Wei-Yu Liao, and Yi-Hsin Tsai. Final project for NCTS USRP 2022)&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-homework-write-ups&#34;&gt;Selected homework write-ups&lt;/h3&gt;&#xA;&lt;p&gt;2024/03/02 | The Galois group of &lt;a href=&#34;https://drive.google.com/file/d/11SK0orgJ8o7l1FXvgnLtdFcbZk20346z/view?usp=sharing&#34;&gt;the algebraic closure of finite fields&lt;/a&gt; is ℤ̂&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
