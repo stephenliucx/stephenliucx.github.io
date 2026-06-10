@@ -1,23 +1,28 @@
 [
   {
-    "date": "12/16/2024",
-    "title": "Hecke theta functions and modularity of CM elliptic curves",
-    "url": "/about/Hecke_CM.pdf",
+    "date": "2024-12-16",
+    "title": "[Hecke theta functions and modularity of CM elliptic curves](/about/Hecke_CM.pdf)",
     "collaborators": [],
     "type": "note"
   },
   {
-    "date": "03/02/2024",
-    "title": "The Galois group of the [algebraic closure of finite fields](/about/Alg_clos.pdf is ℤ̂",
-    "url": "",
+    "date": "2024-03-02",
+    "title": "The Galois group of the [algebraic closure of finite fields](/about/Alg_clos.pdf) is $\\hat{\\mathbb{Z}}$",
     "collaborators": [],
     "type": "note"
   },
   {
-    "date": "2023-05",
-    "title": "Miscellaneous Thing",
-    "url": "",
-    "collaborators": [],
-    "type": "other"
+    "date": "2023-06-29",
+    "title": "[Maurer--Cartan elements and Lie-infinity algebras](https://drive.google.com/file/d/1gVrZFynyC7VOoAJz2fUsPGBnNoOrKnGu/view)",
+    "collaborators": ["Chien-Te Lu", "Lin-Hsiang Weng"],
+    "type": "note",
+    "other": "Slides for the final presentation in NCTS URP 2022"
+  },
+  {
+    "date": "2022-08-12",
+    "title": "[Comparisons of various methods in deformation quantization](https://drive.google.com/file/d/1gVrZFynyC7VOoAJz2fUsPGBnNoOrKnGu/view)",
+    "collaborators": ["Hua-Hsin Chang", "Wei-Yu Liao", "Yi-Hsin Tsai"],
+    "type": "note",
+    "other": "Final project for NCTS USRP 2022"
   }
 ]

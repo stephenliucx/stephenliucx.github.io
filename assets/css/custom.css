@@ -2,14 +2,19 @@
 /* body {
   font-family: 'Libertinus', Georgia, Cambria, 'Times New Roman', Times, serif;
 } */
-/* body {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
+body {
+  font-family: 'Latin Modern', 'Times New Roman', Times, serif;
+  font-variant-numeric: oldstyle-nums;
+}
+/* body { */
+/*   font-family: "IBM Plex Sans", sans-serif; */
+/*   font-variant-numeric: oldstyle-nums; */
+/*   font-optical-sizing: auto; */
+/*   font-weight: 400; */
+/*   font-style: normal; */
+/*   font-variation-settings: */
+/*     "wdth" 100; */
+/* }  */
   
 
 :root {
@@ -62,6 +67,35 @@
   }
 }
 
+/* Authors and dates */
+.author {
+  margin: 0.85rem 0;
+  font-size: 1.2rem; 
+  font-variant-caps: small-caps;
+  /* font-variant-numeric: oldstyle-nums; */
+  text-align: center;
+}
+.date {
+  font-variant-numeric: oldstyle-nums;
+}
+
+/* Heading typography */
+h1 {
+  font-size: 2rem;
+  line-height: 3.25rem;
+  margin-bottom: 1.625rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
+}
 /* body {
   font-family: 'Libertinus', Georgia, Cambria, 'Times New Roman', Times, serif;
   line-height: 1.8;

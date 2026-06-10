@@ -1,19 +1,19 @@
 {{ $data := index site.Data (.Get "data") }}
 {{ $type := .Get "type" }}
 
-<ul class="article-list">
-  {{ range where $data "type" $type }}
-  <li>
+<div class="article-list">
+  {{ range sort (where $data "type" $type) "date" "desc" }}
+  <p>
     <span class="date">{{ .date }}</span>
     <span class="sep"> | </span>
-    {{ if .url }}
-      <a href="{{ .url }}">{{ .title }}</a>
-    {{ else }}
-      <span>{{ .title }}</span>
-    {{ end }}
+    {{ .title | markdownify }} <br/>
     {{ if .collaborators }}
-      <span class="collab"> (with {{ delimit .collaborators ", " " and " }})</span>
+      {{ if .other }}
+    <span class="collab"> (with {{ delimit .collaborators ", " " and " }}. {{ .other }})</span>
+      {{else}}
+        <span class="collab"> (with {{ delimit .collaborators ", " ", and " }})</span>
+      {{ end }}
     {{ end }}
-  </li>
+  </p>
   {{ end }}
-</ul>
+</div>
