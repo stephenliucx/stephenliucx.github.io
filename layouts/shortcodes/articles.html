@@ -1,0 +1,19 @@
+{{ $data := index site.Data (.Get "data") }}
+{{ $type := .Get "type" }}
+
+<ul class="article-list">
+  {{ range where $data "type" $type }}
+  <li>
+    <span class="date">{{ .date }}</span>
+    <span class="sep"> | </span>
+    {{ if .url }}
+      <a href="{{ .url }}">{{ .title }}</a>
+    {{ else }}
+      <span>{{ .title }}</span>
+    {{ end }}
+    {{ if .collaborators }}
+      <span class="collab"> (with {{ delimit .collaborators ", " " and " }})</span>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>

@@ -8,6 +8,8 @@ title = 'About'
 Tell you about them later.
 
 ### Notes
+{{< articles data="articles" type="note" >}}
+
 12/16/2024 | [Hecke theta functions and modularity of CM elliptic curves]({{ Hecke_CM.pdf }})
 
 2023/06/29 | [Maurer-Cartan elements and Lie-infinity algebras](https://drive.google.com/file/d/1gVrZFynyC7VOoAJz2fUsPGBnNoOrKnGu/view)
