@@ -2,19 +2,19 @@
 /* body {
   font-family: 'Libertinus', Georgia, Cambria, 'Times New Roman', Times, serif;
 } */
-body {
+/* body {
   font-family: 'Latin Modern', 'Times New Roman', Times, serif;
   font-variant-numeric: oldstyle-nums;
-}
-/* body { */
-/*   font-family: "IBM Plex Sans", sans-serif; */
-/*   font-variant-numeric: oldstyle-nums; */
-/*   font-optical-sizing: auto; */
-/*   font-weight: 400; */
-/*   font-style: normal; */
-/*   font-variation-settings: */
-/*     "wdth" 100; */
-/* }  */
+} */
+body { */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-variant-numeric: oldstyle-nums;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} 
   
 
 :root {
