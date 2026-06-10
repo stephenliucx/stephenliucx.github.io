@@ -48,9 +48,6 @@
 {{ with resources.Get "css/latex.css" }}
 <link rel="stylesheet" href="{{ (. | minify).RelPermalink }}">
 {{ end }}
-{{ with resources.Get "css/custom.css" }}
-<link rel="stylesheet" href="{{ (. | minify).RelPermalink }}">
-{{ end }}
 {{ if .Page.Store.Get "hasMath" }}
 {{ with resources.Get "css/katex.css" }}
 <link rel="stylesheet" href="{{ (. | minify).RelPermalink }}">
@@ -61,4 +58,7 @@
 {{ partial "custom-head.html" . }}
 {{ end }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+{{ with resources.Get "css/custom.css" }}
+<link rel="stylesheet" href="{{ (. | minify).RelPermalink }}">
+{{ end }}
 </head>
