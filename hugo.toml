@@ -1,6 +1,6 @@
 baseURL = 'https://stephen.period-domain.com/'
 locale = 'en-us'
-title = "Stephen's period domain"
+title = "Stephen’s period domain"
 theme = 'HugoTeX'
 enableInlineShortcodes = true
 foornoteReturnLinkContents = "^"

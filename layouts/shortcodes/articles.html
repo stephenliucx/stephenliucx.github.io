@@ -1,4 +1,4 @@
-{{ $data := index site.Data (.Get "data") }}
+{{ $data := index hugo.Data (.Get "data") }}
 {{ $type := .Get "type" }}
 
 <div class="article-list">
