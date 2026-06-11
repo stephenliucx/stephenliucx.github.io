@@ -6,21 +6,21 @@ body {
   font-family: 'Latin Modern', 'Times New Roman', Times, serif;
   font-variant-numeric: oldstyle-nums;
 }
-/* body { 
-  font-family: "IBM Plex Sans", sans-serif;
-  font-variant-numeric: oldstyle-nums;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}  */
-  
+/*  body {  */
+/*   font-family: "IBM Plex Sans", sans-serif; */
+/*   font-variant-numeric: oldstyle-nums; */
+/*   font-optical-sizing: auto; */
+/*   font-weight: 500; */
+/*   /* font-style: normal; */ */
+/*   font-variation-settings: */
+/*     "wdth" 100; */
+/* }   */
+/**/
 
 :root {
   --body-color: hsl(0, 5%, 10%);
   --body-bg-color: hsl(210, 20%, 98%);
-  --link-visited: hsl(239, 90%, 65%);
+  --link-visited: hsl(239, 65%, 56%);
   --link-focus-outline: hsl(174, 83%, 57%);
   --pre-bg-color: hsl(210, 28%, 93%);
   --kbd-bg-color: hsl(210, 5%, 100%);
