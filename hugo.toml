@@ -10,6 +10,10 @@ foornoteReturnLinkContents = "^"
 
 [Params.author]
   name = "Stephen Liu"
+  first_name = "Stephen"
+  middle_name = "Sicheng"
+  last_name = "Liu"
+  name_alt = "劉思承"
   abstract = """
   I'm a third year PhD student in the department of mathematics at Temple University, advised by Matthew Stover. My current interest lies in the intersection between geometric topology and complex algebraic geometry. 
   """

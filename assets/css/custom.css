@@ -4,7 +4,7 @@
 } */
 body {
   font-family: 'Latin Modern', 'Times New Roman', Times, serif;
-  font-variant-numeric: oldstyle-nums;
+  /* font-variant-numeric: oldstyle-nums; */
 }
 /*  body {  */
 /*   font-family: "IBM Plex Sans", sans-serif; */
@@ -20,7 +20,7 @@ body {
 :root {
   --body-color: hsl(0, 5%, 10%);
   --body-bg-color: hsl(210, 20%, 98%);
-  --link-visited: hsl(239, 65%, 56%);
+  --link-visited: hsl(239, 49%, 40%);
   --link-focus-outline: hsl(174, 83%, 57%);
   --pre-bg-color: hsl(210, 28%, 93%);
   --kbd-bg-color: hsl(210, 5%, 100%);
@@ -55,7 +55,7 @@ body {
    .latex-dark-auto {
     --body-color: hsl(0, 0%, 86%);
     --body-bg-color: hsl(0, 0%, 8%);
-    --link-visited: hsl(239, 85%, 76%);
+    --link-visited: hsl(239, 80%, 77%);
     --link-focus-outline: hsl(215, 63%, 73%);
     --pre-bg-color: hsl(0, 1%, 25%);
     --kbd-bg-color: hsl(0, 0%, 16%);
@@ -75,9 +75,9 @@ body {
   /* font-variant-numeric: oldstyle-nums; */
   text-align: center;
 }
-.date {
+/* .date {
   font-variant-numeric: oldstyle-nums;
-}
+} */
 
 /* Heading typography */
 h1, h2, .title {
