@@ -1,6 +1,7 @@
 +++
 date = '2026-06-03T23:50:29-04:00'
 title = 'Algebraic surfaces'
+justify = true
 +++
 
 ## Segre embedding
