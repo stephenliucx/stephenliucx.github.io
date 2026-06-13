@@ -37,7 +37,7 @@ body {
   \parindent =~ 17.625 * (72 / 72.27) / 12 = 1.463rem. */
 }
 
-/* .latex-dark {
+.latex-dark {
   --body-color: hsl(0, 0%, 86%);
   --body-bg-color: hsl(0, 0%, 8%);
   --link-visited: hsl(239, 85%, 76%);
@@ -49,7 +49,7 @@ body {
   --sidenote-target-border-color: hsl(0, 0%, 59%);
   --footnotes-border-color: hsl(0, 0%, 59%);
   --proof-symbol-filter: invert(80%);
-} */
+}
 
 @media (prefers-color-scheme: dark) {
    .latex-dark-auto {
