@@ -1,5 +1,6 @@
 baseURL = 'https://stephen.period-domain.com/'
 locale = 'en-us'
+hasCJKLanguage = true
 title = "Stephen’s period domain"
 theme = 'HugoTeX'
 enableInlineShortcodes = true
