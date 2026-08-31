@@ -7,7 +7,11 @@ justify = true
 My name is <strong>Stephen</strong> Sicheng <strong>Liu</strong>, 劉思承. 
 I'm a fourth year PhD student in math at CUNY Graduate Center, advised by Matthew Stover.
 My current interest lies in the intersection between low dimensional geometric topology and complex algebraic geometry.
-In particular, I am studying the structure of complex algebraic surfaces, which belongs to the family of real 4-manifolds, through the Kodaira--Enriques classification. 
+
+In particular, I am studying complex hyperbolic surfaces and, more broadly, 
+the structure of complex algebraic surfaces
+of different types in the Kodaira--Enriques classification,
+such as their groups of automorphisms. 
 
 ## [You might have seen me at...]({{< relref "posts/travel" >}})
 
