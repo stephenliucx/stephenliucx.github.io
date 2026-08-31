@@ -9,7 +9,7 @@
     {{ .title | markdownify }} <br/>
     {{ if .collaborators }}
       {{ if .other }}
-    <span class="collab"> (with {{ delimit .collaborators ", " " and " }}. {{ .other }})</span>
+    <span class="collab"> (with {{ delimit .collaborators ", " ", and " }}. {{ .other }})</span>
       {{else}}
         <span class="collab"> (with {{ delimit .collaborators ", " ", and " }})</span>
       {{ end }}
