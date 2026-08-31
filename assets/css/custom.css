@@ -5,11 +5,18 @@
 
 /* CJK fonts */ 
 
+/* body { */
+/*   font-family: 'Latin Modern', "Noto Serif KR", "Noto Serif JP", "Noto Serif HK", "Noto Serif TC", "Noto Serif SC", 'Times New Roman', serif; */
+/*   /* font-variant-numeric: oldstyle-nums; */ */
+/*   font-optical-sizing: auto; */
+/*   font-weight: 389; */
+/*   font-style: normal; */
+/* } */
 body {
-  font-family: 'Latin Modern', "Noto Serif KR", "Noto Serif JP", "Noto Serif HK", "Noto Serif TC", "Noto Serif SC", 'Times New Roman', serif;
+  font-family: "IBM Plex Sans", "Noto Serif KR", "Noto Serif JP", "Noto Serif HK", "Noto Serif TC", "Noto Serif SC", 'Times New Roman', serif;
   /* font-variant-numeric: oldstyle-nums; */
   font-optical-sizing: auto;
-  font-weight: 389;
+  font-weight: 500;
   font-style: normal;
 }
 :root {

@@ -3,8 +3,7 @@
 
 <div class="article-list">
   {{ range sort (where $data "type" $type) "date" "desc" }}
-  <p>
-    <span class="date">{{ .date }}</span>
+  <ul><li>    <span class="date">{{ .date }}</span>
     <span class="sep"> | </span>
     {{ .title | markdownify }} <br/>
     {{ if .collaborators }}
@@ -14,6 +13,6 @@
         <span class="collab"> (with {{ delimit .collaborators ", " ", and " }})</span>
       {{ end }}
     {{ end }}
-  </p>
+  </li></ul>
   {{ end }}
 </div>
