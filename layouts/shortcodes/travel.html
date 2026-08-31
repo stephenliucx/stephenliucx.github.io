@@ -1,0 +1,17 @@
+{{ $data := index hugo.Data (.Get "data") }}
+<div class="travel-list">
+  {{ range $data }}
+  <p>
+    <span class="date">{{ .date }}</span>
+    <span class="sep"> | </span>
+    {{ .title | markdownify }}
+    {{ if .location }}
+    <br/>
+      <span class="location"> {{ .location | markdownify }}</span>
+      {{ if .other }}
+        <br/><span class="other">({{ .other | markdownify }})</span>
+      {{ end }}
+    {{ end }}
+  </p>
+  {{ end }}
+</div>
