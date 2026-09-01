@@ -24,5 +24,53 @@
     "collaborators": ["Hua-Hsin Chang", "Wei-Yu Liao", "Yi-Hsin Tsai"],
     "type": "note",
     "other": "Final project for NCTS USRP 2022"
-  }
+  },
+  {
+  "date": "2025-09-22",
+  "title": "Local Rigidity from Ehresmann's viewpoint",
+  "type": "talk",
+  "other": "Junior Groups/Geometry/Topology Seminar, Temple University"
+},
+{
+  "date": "2025-02-19",
+  "title": "Characteristic classes via classifying spaces",
+  "type": "talk",
+  "other": "Junior Groups/Geometry/Topology Seminar, Temple University"
+},
+{
+  "date": "2024-10-16",
+  "title": "Periods and Hodge structures of complex elliptic curves",
+  "type": "talk",
+  "other": "Junior Groups/Geometry/Topology Seminar, Temple University"
+},
+{
+  "date": "2024-09-30",
+  "title": "Cyclotomic characters and compatible systems of $p$-adic Galois representations",
+  "type": "talk",
+  "other": "[Algebra Seminar](https://templemathematics.us/events/seminar/algebra-seminar?event_year=351), Temple University"
+},
+{
+  "date": "2024-03-27",
+  "title": "Jacobians of compact Riemann surfaces",
+  "type": "talk",
+  "other": "Junior Groups/Geometry/Topology Seminar, Temple University"
+},
+{
+  "date": "2022-10-21",
+  "title": "Kontsevich deformation quantization in $\\mathbb{R}^n$ and computation of weighted graphs",
+  "type": "talk",
+  "other": "[Student Geometry Seminar](https://sites.google.com/view/sgsnthu/events?authuser=0#h.j6sd5xwzvfgz), National Tsing Hua University"
+},
+{
+  "date": "2026-04-14",
+  "title": "Elliptic modular surfaces",
+  "type": "talk",
+  "other": "Junior Groups/Geometry/Topology Seminar, Temple University"
+},
+{
+  "date": "2025-12-01",
+  "title": "Borel subgroups (from Borel's book *Linear Algebraic Groups*)",
+  "type": "talk",
+  "other": "[Algebra Seminar](https://templemathematics.us/events/seminar/algebra-seminar?event_year=21), Temple University"
+}
 ]

@@ -125,7 +125,7 @@
 
 .latex-dark {
   --body-color: hsl(0, 0%, 86%);
-  --body-bg-color: hsl(0, 0%, 8%);
+  --body-bg-color: hsl(0, 0%, 12%);
   /* --link-color: hsl(239, 80%, 77%); */
   --link-visited: hsl(247, 80%, 77%);
   --link-focus-outline: hsl(32, 50%, 44%);
@@ -141,7 +141,7 @@
 @media (prefers-color-scheme: dark) {
    .latex-dark-auto {
     --body-color: hsl(0, 0%, 86%);
-    --body-bg-color: hsl(0, 0%, 8%);
+    --body-bg-color: hsl(0, 0%, 12%);
     /* --link-color: hsl(239, 80%, 77%); */
     --link-visited: hsl(247, 80%, 77%);
     --link-focus-outline: hsl(32, 50%, 44%);
@@ -191,8 +191,32 @@ body.libertinus {
 }
 
 body {
-  font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-family: "IBM Plex Sans", "Noto Serif KR", "Noto Serif JP", "Noto Serif HK", "Noto Serif TC", "Noto Serif SC", 'Times New Roman', serif;
+  /* font-variant-numeric: oldstyle-nums; */
+  font-optical-sizing: auto;
+  font-weight: 528;
+  font-style: normal;
   line-height: 1.8;
+  font-size: 17px
+}
+
+/* h1 { */
+/*   font-weight: 700 */
+/* } */
+/* h2 { */
+/*   /* font-weight: 611 */ */
+/* } */
+
+body.latex-dark {
+  font-weight: 444;
+}
+@media (prefers-color-scheme: dark) {
+   body.latex-dark-auto {
+      font-weight: 444;
+ }}
+body {
+  /* font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif; */
+  /* line-height: 1.8; */
 
   max-width: 90ch;
   min-height: 100vh;
@@ -559,7 +583,7 @@ dl dd {
 /* Center align author name, use small caps and add vertical spacing  */
 .author {
   margin: 0.85rem 0;
-  font-variant-caps: small-caps;
+  /* font-variant-caps: small-caps; */
   text-align: center;
 }
 

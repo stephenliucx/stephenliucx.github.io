@@ -1,6 +1,6 @@
 {{ $data := index hugo.Data (.Get "data") }}
 <div class="travel-list">
-  {{ range $data }}
+  {{ range sort $data "date_end" "desc" }}
   <ul><li>
    <span class="date">{{ .date }}</span>
     <span class="sep"> | </span>

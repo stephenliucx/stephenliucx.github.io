@@ -9,3 +9,7 @@ This section is reserved for the future.
 
 ### Notes
 {{< articles data="articles" type="note" >}}
+
+### Talks
+{{< articles data="articles" type="talk" >}}
+

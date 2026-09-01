@@ -9,8 +9,8 @@ I'm a fourth year PhD student in math at CUNY Graduate Center, advised by Matthe
 My current interest lies in the intersection between low dimensional geometric topology and complex algebraic geometry. 
 
 In particular, I think about the structure of complex algebraic surfaces, 
-which belongs to the family of real 4-manifolds, through the Kodaira--Enriques classification. 
-I also study related geometric objects and tools such as complex hyperbolic geometry and fibrations, including elliptic fibrations.
+which belongs to the family of real 4-manifolds, through the Enriques--Kodaira classification. 
+I also study related geometric objects and tools such as complex hyperbolic geometry and fibrations over Riemann surfaces.
 
 ## [You might have seen me at...]({{< relref "posts/travel" >}})
 
@@ -21,7 +21,11 @@ This section is reserved for the future.
 ### Notes
 {{< articles data="articles" type="note" >}}
 
+### Talks
+{{< articles data="articles" type="talk" >}}
+
+
 ## [Teaching]({{< relref "posts/teaching" >}})
 
-## [Friendly Links](https://sites.google.com/view/stephen-cx/friendly-links)
+## [Friendly links](https://sites.google.com/view/stephen-cx/friendly-links)
 

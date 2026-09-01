@@ -3,14 +3,18 @@
 
 <div class="article-list">
   {{ range sort (where $data "type" $type) "date" "desc" }}
-  <ul><li>    <span class="date">{{ .date }}</span>
+  <ul><li>    <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
     <span class="sep"> | </span>
     {{ .title | markdownify }} <br/>
     {{ if .collaborators }}
       {{ if .other }}
-    <span class="collab"> (with {{ delimit .collaborators ", " ", and " }}. {{ .other }})</span>
+    <span class="collab"> (with {{ delimit .collaborators ", " ", and " | markdownify }}. {{ .other | markdownify }})</span>
       {{else}}
-        <span class="collab"> (with {{ delimit .collaborators ", " ", and " }})</span>
+        <span class="collab"> (with {{ delimit .collaborators ", " ", and " | markdownify }})</span>
+      {{ end }}
+    {{ else }}
+      {{ if .other }}
+        <span class="collab">  {{ .other | markdownify }} </span>
       {{ end }}
     {{ end }}
   </li></ul>
