@@ -6,3 +6,7 @@
 3. `hugo server [--BuildDrafts]` to preview. See [here](https://gohugo.io/getting-started/usage/).
 4. `hugo` to build the website.
 5. Finally, `git commit -a -m <Message>` and `git push`. Then github will deploy the website, which can be checked from the tab "Actions".
+
+### Based on
+- [HugoTeX](https://github.com/hugotex-dev/HugoTeX/)
+- [latex.css](https://latex.vercel.app/)
