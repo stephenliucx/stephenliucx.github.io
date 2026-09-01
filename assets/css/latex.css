@@ -749,11 +749,38 @@ input.sidenote-toggle {
   white-space: nowrap;
 }
 
+/* Footer format */ 
+footer .footer-left,
+footer .footer-right {
+  white-space: nowrap;
+}
+/* footer { */
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+/*   justify-content: center; */
+/*   gap: 0.3em; */
+/* } */
+
+.footer-break {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  footer .sep {
+    display: none;
+  }
+  .footer-break {
+    display: inline;
+  }
+}
+
 /* Heading typography */
 h1 {
   font-size: 2.5rem;
   line-height: 3.25rem;
   margin-bottom: 1.625rem;
+  overflow-wrap: normal;   /* or don't set it at all */
+  word-break: normal;
 }
 
 h2 {
