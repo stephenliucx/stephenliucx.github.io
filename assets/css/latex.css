@@ -263,7 +263,8 @@ p.no-indent {
 }
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
+/* Set it to be true for all A elements */
+a {
   text-decoration-skip-ink: auto;
 }
 
