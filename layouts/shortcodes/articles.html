@@ -2,8 +2,9 @@
 {{ $type := .Get "type" }}
 
 <div class="article-list">
+  <ul>
   {{ range sort (where $data "type" $type) "date" "desc" }}
-  <ul><li>    <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
+  <li>    <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
     <span class="sep"> | </span>
     {{ .title | markdownify }} <br/>
     {{ if .collaborators }}
@@ -17,6 +18,7 @@
         <span class="collab">  {{ .other | markdownify }} </span>
       {{ end }}
     {{ end }}
-  </li></ul>
+  </li>
   {{ end }}
+  </ul>
 </div>

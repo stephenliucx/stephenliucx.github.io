@@ -172,6 +172,10 @@ dd {
   margin: 0;
 }
 
+.article-list li {
+  margin-bottom: 1rem;
+}
+
 /* Make default font-size 1rem and add smooth scrolling to anchors */
 html {
   font-size: 1rem;
@@ -263,11 +267,9 @@ p.no-indent {
 }
 
 /* A elements that don't have a class get default styles */
-/* Set it to be true for all A elements */
+/* Set it to be true for all elements */
 a:not([class]),
-.author a,
-.author a strong,
-a {
+html {
   text-decoration-skip-ink: auto;
   -webkit-text-decoration-skip-ink: auto;
 }
