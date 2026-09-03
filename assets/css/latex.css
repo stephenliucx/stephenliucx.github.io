@@ -269,6 +269,7 @@ a:not([class]),
 .author a strong,
 a {
   text-decoration-skip-ink: auto;
+  -webkit-text-decoration-skip-ink: auto;
 }
 
 /* Make links red */
